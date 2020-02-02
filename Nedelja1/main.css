@@ -32,7 +32,7 @@ a {
   color: #58585A;
 }
 a:hover {
-  color: #fff;
+  color: yellow;
 }
 /**********************************************
                     Layout
@@ -55,18 +55,19 @@ img{
   float: left;
   padding: 0 10px;
   _outline: 5px dotted pink;
-  height: 900px;
+  height: 730px;
   margin: 0 auto;
   border: 2px double;
   text-align: center;
   overflow:scroll;
+  opacity: .8;
 }
 
 .col-1-1{
   width: 33.3333%;
   background-image: url(img/grad2.jpg);
   background-repeat: no-repeat;
-  border-style: double;
+  _border-style: double;
   color: white;
   _min-height: 300px;
 
@@ -74,20 +75,22 @@ img{
 .col-1-2{
   width: 33.3333%;
   background-image: url(img/apple.jpeg);
-  background-repeat:no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-  background-size:auto;
+  background-repeat:repeat;
+  background-position:center;
+  _background-attachment: fixed;
+  _background-size:auto;
   text-align: center;
 }
 .col-1-3{
   width: 33.3333%;
-  background-image: url(img/woh.png);
+  background-image: url(img/woh1.png);
   background-repeat:no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment:scroll;
   background-size:auto;
   color: black;
+  background-color: yellow;
+
 
 }
 .container1{
@@ -96,6 +99,7 @@ img{
 }
 .container2{
   background-color: white;
+  opacity: .8;
 }
 .forme{
   width:700px;
