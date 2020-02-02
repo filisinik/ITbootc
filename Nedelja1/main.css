@@ -32,7 +32,7 @@ a {
   color: #58585A;
 }
 a:hover {
-  color: yellow;
+  color: white;
 }
 /**********************************************
                     Layout
@@ -130,7 +130,6 @@ img{
   position: fixed;
   top: 25px;
   left: 20px;
-  background-image:url(img/logo1.png);
 }
 nav ul {
   float: right;
