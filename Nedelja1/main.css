@@ -82,7 +82,7 @@ img{
   width: 33.3333%;
   background-image: url(img/woh1.png);
   background-repeat:no-repeat;
-  background-position: bottom;
+  background-position: top;
   background-attachment:scroll;
   background-size:auto;
   color: black;
