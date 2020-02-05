@@ -4,7 +4,7 @@
 //      console.log('Uspesno ste kupili prozivod');
 //   }else{console.log('Nemate dovoljno novca');}
 
-  let cena  = 101;
+  let cena  = 10;
   let kupac = 100;
  let promet = function(cena, kupac){
      console.log(kupac - cena);
