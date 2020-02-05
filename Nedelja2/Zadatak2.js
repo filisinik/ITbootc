@@ -12,7 +12,7 @@
  }
  promet(cena,kupac);
  if( kupac - cena >=0){
-     console.log('Uspesno ste kupili prozivod')
+     console.log('Uspesno ste kupili proizvod')
  }else{
      console.log('Nemate dovoljno novca')
  }
